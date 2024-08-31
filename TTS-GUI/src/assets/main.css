@@ -1,0 +1,28 @@
+@import './base.css';
+
+.ck-editor__main {
+  max-height: 90vh;
+  width: 100%;
+}
+
+.ck-content {
+  min-height: 90vh;
+  width: 100%;
+}
+.ck-powered-by {
+  display: none;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
