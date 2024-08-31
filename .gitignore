@@ -1,0 +1,43 @@
+.DS_Store
+node_modules/
+/dist/
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
+
+TTS-GUI/.DS_Store
+TTS-GUI/node_modules/
+TTS-GUI//dist/
+
+# local env files
+TTS-GUI/.env.local
+TTS-GUI/.env.*.local
+
+# Log files
+TTS-GUI/npm-debug.log*
+TTS-GUI/yarn-debug.log*
+TTS-GUI/yarn-error.log*
+
+# Editor directories and files
+TTS-GUI/.idea
+TTS-GUI/.vscode
+TTS-GUI/*.suo
+TTS-GUI/*.ntvs*
+TTS-GUI/*.njsproj
+TTS-GUI/*.sln
+TTS-GUI/*.sw*
